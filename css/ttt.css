@@ -1,0 +1,49 @@
+ul{
+  width: 80%;
+
+}
+ li{
+        width: 200px;
+        min-height: 200px;
+        border: 3px solid #000;
+        display: inline-block;
+        float: left;
+        background-color: grey;
+        font-size: 1000%;
+        text-align: center;
+        cursor: zoom-in;
+ }
+
+ li:hover{
+   background-color: yellow;
+ }
+
+ .group:after{
+   content: "";
+   clear: both;
+   display: block;
+
+ }
+
+ .x,
+ .o{
+   background: white;
+ }
+
+ .x:hover,
+ .o:hover {
+   background: white;
+ }
+
+ .x:after {
+   content: "x";
+ }
+
+ .o:after {
+   content: "o";
+ }
+
+ figcaption {
+   font-size: 30px;
+   text-align: center;
+ }
